@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steelbrain/js-toolki.git"
+    "url": "git+https://github.com/steelbrain/js-toolkit.git"
   },
   "keywords": [
     "es6"
@@ -16,7 +16,7 @@
   "author": "steelbrain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/steelbrain/js-toolki/issues"
+    "url": "https://github.com/steelbrain/js-toolkit/issues"
   },
-  "homepage": "https://github.com/steelbrain/js-toolki#readme"
+  "homepage": "https://github.com/steelbrain/js-toolkit#readme"
 }
