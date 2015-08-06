@@ -24,7 +24,7 @@ function promisify(callback) {
 function promisifyAll(object) {
   var toReturn = {};
   for (var _name in object) {
-    if (typeof object === 'function') {
+    if (typeof object[_name] === 'function') {
       toReturn[_name] = promisify(object[_name]);
     } else toReturn[_name] = object[_name];
   }
