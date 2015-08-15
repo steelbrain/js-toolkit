@@ -6,6 +6,7 @@ JS-Toolkit is a javascript utility belt, it helps you be more productive by prov
 ```js
 exports = {
   promisify: function(callback):function
+  promisifyAll: function(object):object
 }
 ```
 
