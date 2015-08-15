@@ -26,7 +26,11 @@ function promisifyAll(object) {
   for (var _name in object) {
     if (typeof object[_name] === 'function') {
       toReturn[_name] = promisify(object[_name]);
-    } else toReturn[_name] = object[_name];
+    } else if (typeof object[_name] === 'object') {
+      toReturn[_name] = promisifyAll(object[_name]);
+    } else {
+      toReturn[_name] = object[_name];
+    }
   }
   return toReturn;
 }
