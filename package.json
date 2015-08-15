@@ -4,7 +4,8 @@
   "description": "A toolkit for being more productive with Javascript",
   "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "uc-compile lib/main.js --Babel > dist/main.js"
   },
   "repository": {
     "type": "git",
