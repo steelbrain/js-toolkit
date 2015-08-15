@@ -1,6 +1,6 @@
 {
   "name": "js-toolkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A toolkit for being more productive with Javascript",
   "main": "dist/main.js",
   "scripts": {
