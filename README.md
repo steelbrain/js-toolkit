@@ -1,4 +1,4 @@
-JS-Tooltki
+JS-Toolkit
 ===========
 JS-Toolkit is a javascript utility belt, it helps you be more productive by providing some helper methods.
 
