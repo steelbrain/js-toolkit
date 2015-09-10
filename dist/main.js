@@ -4,6 +4,7 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.promisify = promisify;
 exports.promisifyAll = promisifyAll;
+exports.extend = extend;
 
 function promisify(callback) {
   var promisified = function promisified() {
@@ -30,6 +31,20 @@ function promisifyAll(object) {
       toReturn[_name] = promisifyAll(object[_name]);
     } else {
       toReturn[_name] = object[_name];
+    }
+  }
+  return toReturn;
+}
+
+function extend() {
+  var toReturn = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+
+  for (var i = 1; i <= arguments.length; ++i) {
+    var argument = arguments[i];
+    for (var prop in argument) {
+      if (Object.prototype.hasOwnProperty.call(argument, prop)) {
+        toReturn[prop] = argument[prop];
+      }
     }
   }
   return toReturn;
