@@ -1,6 +1,6 @@
 {
   "name": "js-toolkit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A toolkit for being more productive with Javascript",
   "main": "lib/main.js",
   "jsnext:main": "src/main.js",
