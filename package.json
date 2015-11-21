@@ -2,10 +2,11 @@
   "name": "js-toolkit",
   "version": "0.0.5",
   "description": "A toolkit for being more productive with Javascript",
-  "main": "dist/main.js",
+  "main": "lib/main.js",
+  "jsnext:main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "uc-compile lib/main.js --Babel > dist/main.js"
+    "compile": "babel --presets steelbrain src/main.js > lib/main.js"
   },
   "repository": {
     "type": "git",
