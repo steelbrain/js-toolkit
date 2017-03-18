@@ -1,5 +1,7 @@
 JS-Toolkit
 ===========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/js-toolkit.svg)](https://greenkeeper.io/)
 JS-Toolkit is a javascript utility belt, it helps you be more productive by providing some helper methods.
 
 #### API
